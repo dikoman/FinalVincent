@@ -23,7 +23,7 @@ get_header();
 // à modifier  utiliser la fonction in_category() pour que 'single-nouvelle'
 // ne s'exécute que pour les articles de catégorie nouvelle ou événement
 
-if ( in_category('Nouvelle') ) {
+if ( in_category('Nouvelle') || in_category('Cours')) {
     get_template_part( 'template-parts/content/content', 'single-nouvelle' );
 } elseif ( in_category('Événement') ) {
     get_template_part( 'template-parts/content/content', 'single-evenement' );

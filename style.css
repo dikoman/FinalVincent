@@ -704,32 +704,32 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #1c7742;
+  background-color: #057534;
   color: #fff;
 }
 
 .liste-cours .session-2 {
-  background-color: #d3a145;
+  background-color: #c0b522;
   color: #aaa;
 }
 
 .liste-cours .session-3 {
-  background-color: #2f2f97;
+  background-color: #3333d3;
   color: #fff;
 }
 
 .liste-cours .session-4 {
-  background-color: #948b36;
+  background-color: #615c2c;
   color: #fff;
 }
 
 .liste-cours .session-5 {
-  background-color: #97173d;
+  background-color: #b90239;
   color: #fff;
 }
 
 .liste-cours .session-6 {
-  background-color: #251b04;
+  background-color: #1d1504;
   color: #fff;
 }
 
@@ -779,6 +779,10 @@ body.page .main-navigation {
   font-size: .4em;
 }
 
+.liste-cours a {
+  color: #f0f0f0 !important;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 1em;
 }
@@ -813,6 +817,17 @@ a {
 /*--------------------------------------------------------------
 ## nouvelle
 --------------------------------------------------------------*/
+.contenuNouvelle {
+  font-weight: 700;
+  font-style: italic;
+  color: #6f97a7;
+}
+
+.contenuNouvelle p {
+  border: 3px solid #056186;
+  padding: 0.7em;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
@@ -825,6 +840,7 @@ a {
             transform: translateY(0) rotateX(0deg);
   }
 }
+
 @keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
