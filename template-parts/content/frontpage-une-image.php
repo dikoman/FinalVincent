@@ -31,9 +31,9 @@
 		<?php the_title(); ?></a>
 		</figcaption>
 
-		
+
     </figure>
-    <div class="wp-block-media-text__content">
+    <div class="wp-block-media-text__content previewEvenement">
         <p style="background-color:#64adcc" class="has-background has-drop-cap has-small-font-size">
 
             <?php  echo get_the_excerpt();  ?>

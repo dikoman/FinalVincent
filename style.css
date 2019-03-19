@@ -783,6 +783,19 @@ body.page .main-navigation {
   font-size: 1em;
 }
 
+.previewEvenement p {
+  background-color: #79b1d6 !important;
+}
+
+.previewEvenement {
+  background-color: #04477e !important;
+}
+
+a {
+  color: #8a0000 !important;
+  text-decoration: none !important;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
