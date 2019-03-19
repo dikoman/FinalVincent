@@ -18,9 +18,9 @@
 	</header>
 	<?php endif; ?>
 
-	<div class="entry-content contentNouvelle">
-		<div class="wp-block-media-text alignwide divNouvelle" style="grid-template-columns:30% auto">
-			<figure class="wp-block-media-text__media figureNouvelle">
+	<div class="entry-content contentEvenement">
+		<div class="wp-block-media-text alignwide divEvenement" style="grid-template-columns:30% auto">
+			<figure class="wp-block-media-text__media figureEvenement">
 			<?php
 				$image = get_field('mon_image');
 				$size = 'large'; // (thumbnail, medium, large, full or custom size)
@@ -29,7 +29,7 @@
 				}
 			?>
 			</figure>
-			<div class="wp-block-media-text__content contenuNouvelle">
+			<div class="wp-block-media-text__content contenuEvenement">
 				<?php
 					the_content();
 				?>

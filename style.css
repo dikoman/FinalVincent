@@ -796,6 +796,23 @@ a {
   text-decoration: none !important;
 }
 
+/*--------------------------------------------------------------
+## evenement
+--------------------------------------------------------------*/
+.contenuEvenement {
+  font-weight: 700;
+  font-style: italic;
+  color: #6fa76f;
+}
+
+.contenuEvenement p {
+  border: 3px solid #058616;
+  padding: 0.7em;
+}
+
+/*--------------------------------------------------------------
+## nouvelle
+--------------------------------------------------------------*/
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
@@ -808,7 +825,6 @@ a {
             transform: translateY(0) rotateX(0deg);
   }
 }
-
 @keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);

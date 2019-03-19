@@ -22,7 +22,13 @@ get_header();
 				the_post();
 // à modifier  utiliser la fonction in_category() pour que 'single-nouvelle'
 // ne s'exécute que pour les articles de catégorie nouvelle ou événement
-					get_template_part( 'template-parts/content/content', 'single-nouvelle' );
+
+if ( in_category('Nouvelle') ) {
+    get_template_part( 'template-parts/content/content', 'single-nouvelle' );
+} elseif ( in_category('Événement') ) {
+    get_template_part( 'template-parts/content/content', 'single-evenement' );
+}
+					
 			
 				if ( is_singular( 'attachment' ) ) {
 					// Parent post navigation.
