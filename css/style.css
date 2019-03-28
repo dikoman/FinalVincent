@@ -578,6 +578,7 @@ body.page .main-navigation {
   }
 }
 
+/*Apparition en fondu d'opacité*/
 @-webkit-keyframes fade_in {
   from {
     opacity: 0;
@@ -586,7 +587,6 @@ body.page .main-navigation {
     opacity: 1;
   }
 }
-
 @keyframes fade_in {
   from {
     opacity: 0;
@@ -872,7 +872,7 @@ a {
 }
 
 .contenuEvenement p {
-  border: 3px solid #058616;
+  border: 3px solid #078818;
   padding: 0.7em;
 }
 
