@@ -43,7 +43,7 @@
     }
 
 
-
+    /*tablette*/
     @include media(tablet)
     {
         .site-branding{
@@ -62,6 +62,7 @@
 
 }
 
+    /*ordinateur*/
    @include media(desktop) {
 
             .site-branding {
