@@ -13,7 +13,6 @@ function my_theme_enqueue_styles() {
         filemtime( get_stylesheet_directory() . '/css/style.css' )
     );
 
-  
     wp_enqueue_script(
 	'animation',
 	get_stylesheet_directory_uri() . '/js/animation.js',
@@ -32,6 +31,8 @@ function extraire_cours( $query ) {
    }
 }
 add_action( 'pre_get_posts', 'extraire_cours' );
+
+
 
 ///////////////////////////////////////////////////////////
 /*
@@ -72,6 +73,5 @@ function acf_set_featured_image($post_id){
     return $value;
 }
 */
-
 
 ?>
