@@ -18,8 +18,8 @@
 	button {
 		display: inline-block;
 		border: none;
-		padding: 0;
-		margin: 0;
+		padding: 0em;
+		margin: 0em;
 		font-family: $font__heading;
 		font-weight: 700;
 		line-height: $font__line-height-heading;
@@ -109,7 +109,7 @@
 						height: 24px;
 						line-height: $font__line-height-heading;
 						width: 24px;
-						padding: 0;
+						padding: 0em;
 						margin-left: #{0.5 * $size__spacing-unit};
 
 						svg {
@@ -134,7 +134,7 @@
 
 			&:last-child > a,
 			&:last-child.menu-item-has-children .submenu-expand {
-				margin-right: 0;
+				margin-right: 0em;
 			}
 		}
 	}
@@ -144,7 +144,7 @@
 		background-color: $color__link;
 		color: $color__background-body;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 0em;
 
 		position: absolute;
 		opacity: 0;
@@ -436,9 +436,9 @@
 		&.expanded-true {
 
 			display: table;
-			margin-top: 0;
+			margin-top: 0em;
 			opacity: 1;
-			padding-left: 0;
+			padding-left: 0em;
 
 			/* Mobile position */
 			left: 0;
