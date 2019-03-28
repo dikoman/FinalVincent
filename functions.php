@@ -8,9 +8,9 @@ function my_theme_enqueue_styles() {
 
     wp_enqueue_style(
         'twentynineteen-style-enfant',
-        get_stylesheet_directory_uri() . '/style.css',
+        get_stylesheet_directory_uri() . '/css/style.css',
         array(),
-        filemtime( get_stylesheet_directory() . '/style.css' )
+        filemtime( get_stylesheet_directory() . '/css/style.css' )
     );
 
   
